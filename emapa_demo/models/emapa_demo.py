@@ -19,5 +19,5 @@ class EmapaDemo(models.Model):
         default=True,
     )
     code = fields.Char(
-    string="Código EMAPA",
+    string="Código",
 )
