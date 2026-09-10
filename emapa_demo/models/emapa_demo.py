@@ -18,3 +18,6 @@ class EmapaDemo(models.Model):
         string="Activo",
         default=True,
     )
+    code = fields.Char(
+    string="Código",
+)
